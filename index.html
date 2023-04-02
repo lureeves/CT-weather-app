@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css">
+    <script src="./apikey.js"></script>
+    <script src="./main.js" defer></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="gradient">
+
+        <nav class="navbar">
+            <div class="container-fluid">
+                <!-- <h3>Weather App</h1> -->
+            </div>
+        </nav>
+
+
+        <div class="container">
+        
+            <!-- Submmission Form -->
+            <div class="row my-5 pt-5">
+                <div class="col w-50">
+                    <form action="" id="weatherForm">
+                        <div class="form-group text-center ">
+                            <h1 class="text-center pb-4 text-light fw-normal fs-1 py-5" style="font-size:3.5rem!important">Find The Weather...<br>Anywhere</h1>
+                            <input type="text" name="city" class="form-control w-25 mx-auto text-center mt-5 mb-3" placeholder="Enter City Name" id="inputForm">
+                            <input type="submit" value="What's The Weather Over There?" class="btn btn-outline-light mt-3">
+                        </div>
+                    </form>
+                </div>
+            </div>
+            
+
+            <!-- Weather Info -->
+            <div class="row mt-3">
+                <div class="col " id="weatherDisplay">
+                    <!-- Populate with JavaScript -->
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,18 @@
+/* I did not come up with this radial gradient idea. Found it online */
+/* https://www.30secondsofcode.org/css/s/mouse-cursor-gradient-tracking/ */
+/* https://codepen.io/lsammarco/pen/waMpJw */
+body {
+    height: 100vh;
+    background: linear-gradient(to right, #26636c, #28336a);
+  }
+  
+.gradient {
+    width: 100%;
+    height: 100%;
+    background-image: 
+    radial-gradient(
+        circle 250px at 
+        var(--x) var(--y), 
+        rgba(255, 255, 0, 0.318), rgba(0, 0, 0, 0) );
+}
+  
